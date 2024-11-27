@@ -2,3 +2,4 @@ name = "Cooklang"
 grammar = "cooklang"
 path_suffixes = ["cook"]
 line_comments = ["-- "]
+brackets = [{ start = "{", end = "}", close = true, newline = false }]
