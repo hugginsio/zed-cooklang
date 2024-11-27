@@ -1,0 +1,4 @@
+name = "Cooklang"
+grammar = "cooklang"
+path_suffixes = ["cook"]
+line_comments = ["-- "]
