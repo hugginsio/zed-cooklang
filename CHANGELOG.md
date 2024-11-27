@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/hugginsio/zed-cooklang/compare/v1.0.0...v1.1.0) (2024-11-27)
+
+
+### Features
+
+* allow release-zed to be manually dispatched ([ef08ac6](https://github.com/hugginsio/zed-cooklang/commit/ef08ac6826efc52613406ffdccdd97597ae69078))
+
 ## 1.0.0 (2024-11-27)
 
 
