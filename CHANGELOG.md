@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/hugginsio/zed-cooklang/compare/v1.1.0...v1.2.0) (2024-11-27)
+
+
+### Features
+
+* auto-closing brackets ([80ac607](https://github.com/hugginsio/zed-cooklang/commit/80ac60765d1f575564175b5c1e0c15bce9657d7c))
+
+
+### Bug Fixes
+
+* combine release actions ([49f5a65](https://github.com/hugginsio/zed-cooklang/commit/49f5a654032d5e6b4f4fa0bdbe0de9c8acf2ebd3))
+
 ## [1.1.0](https://github.com/hugginsio/zed-cooklang/compare/v1.0.0...v1.1.0) (2024-11-27)
 
 
