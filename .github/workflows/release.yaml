@@ -10,14 +10,14 @@ on:
 
 jobs:
   tag:
-    name: "Tag Release"
+    name: "Release, Please!"
     runs-on: ubuntu-latest
     if: "${{ startsWith(github.ref, 'refs/heads') }}"
     permissions:
       contents: write
       pull-requests: write
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - uses: "googleapis/release-please-action@v4"
         id: release
         with:
           release-type: simple
