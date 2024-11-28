@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/refs/heads/main/schemas/config.json",
+  "packages": {
+    ".": {
+      "package-name": "zed-cooklang",
+      "release-type": "simple",
+      "extra-files": ["extension.toml"]
+    }
+  }
+}
