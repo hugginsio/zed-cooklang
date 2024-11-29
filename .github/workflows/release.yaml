@@ -22,7 +22,7 @@ jobs:
           manifest-file: ".github/release-please/manifest.json"
       - uses: huacnlee/zed-extension-action@v1
         name: "Release to Zed"
-        if: "${{ startsWith(github.event.head_commit.message, 'chore(main): release ') && startsWith(github.event.head_commit.committer.name, 'github-actions') }}"
+        if: "${{ startsWith(github.event.head_commit.message, 'chore(main): release ') && startsWith(github.event.head_commit.committer.name, 'GitHub') }}"
         with:
           extension-name: cooklang
           push-to: "hugginsio/zed-extensions"
