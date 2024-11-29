@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/hugginsio/zed-cooklang/compare/zed-cooklang-v1.2.0...zed-cooklang-v1.2.1) (2024-11-29)
+
+
+### Bug Fixes
+
+* **workflows:** trigger zed extensions release on tag ([d912cb4](https://github.com/hugginsio/zed-cooklang/commit/d912cb4e447cf3125eedcfb45556de8e3a2307e4))
+
 ## [1.2.0](https://github.com/hugginsio/zed-cooklang/compare/zed-cooklang-v1.1.0...zed-cooklang-v1.2.0) (2024-11-29)
 
 
