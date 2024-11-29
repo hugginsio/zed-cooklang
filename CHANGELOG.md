@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/hugginsio/zed-cooklang/compare/v1.3.2...v1.3.3) (2024-11-29)
+
+
+### Bug Fixes
+
+* **workflows:** add token to release-please ([5637da6](https://github.com/hugginsio/zed-cooklang/commit/5637da6d54a9fa2c20b2eb29c184bcd6ff8053c6))
+
 ## [1.3.2](https://github.com/hugginsio/zed-cooklang/compare/v1.3.1...v1.3.2) (2024-11-29)
 
 
