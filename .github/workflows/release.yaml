@@ -24,7 +24,7 @@ jobs:
           manifest-file: ".github/release-please/manifest.json"
       - uses: huacnlee/zed-extension-action@v1
         name: "Release to Zed"
-        if: "${{ steps.release-please.outputs.release }}"
+        if: "${{ startsWith(github.ref, 'refs/tags') }}"
         with:
           extension-name: cooklang
           push-to: "hugginsio/zed-extensions"
