@@ -9,8 +9,7 @@ on:
       - "v*"
 
 jobs:
-  tag:
-    name: "Release, Please!"
+  combined-release:
     runs-on: ubuntu-latest
     if: "${{ startsWith(github.ref, 'refs/heads') }}"
     permissions:
@@ -19,15 +18,13 @@ jobs:
     steps:
       - uses: "googleapis/release-please-action@v4"
         id: "release-please"
+        name: "Release, Please!"
         with:
           config-file: ".github/release-please/config.json"
           manifest-file: ".github/release-please/manifest.json"
-  zed:
-    name: "Release to Zed"
-    runs-on: ubuntu-latest
-    if: "${{ steps.release-please.outputs.release }}"
-    steps:
       - uses: huacnlee/zed-extension-action@v1
+        name: "Release to Zed"
+        if: "${{ steps.release-please.outputs.release }}"
         with:
           extension-name: cooklang
           push-to: "hugginsio/zed-extensions"
