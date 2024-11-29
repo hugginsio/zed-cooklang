@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/hugginsio/zed-cooklang/compare/v1.3.1...v1.3.2) (2024-11-29)
+
+
+### Bug Fixes
+
+* **workflows:** adjust zed release condition ([f44cad5](https://github.com/hugginsio/zed-cooklang/commit/f44cad544ebd17db89495c49c89120dfda86ab3f))
+
 ## [1.3.1](https://github.com/hugginsio/zed-cooklang/compare/v1.3.0...v1.3.1) (2024-11-29)
 
 
